@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -13,22 +13,22 @@
         <section id="section_1">
             <div>
                 <h1>GeeksforGeeks Survey Form</h1>
-                <form action="forms" method="get">
+                <form action="#">
                     <div>
                         <label for="name">Name</label>
-                        <input type="text" name="input" id="input" placeholder="Enter your name">
+                        <input type="text" name="input" id="name" placeholder="Enter your name">
                     </div>
                     <div>
                         <label for="email">Email</label>
-                        <input type="text" name="input" id="input" placeholder="Enter your email">
+                        <input type="text" name="input" id="email" placeholder="Enter your email">
                     </div>
                     <div>
                         <label for="age">Age</label>
-                        <input type="text" name="input" id="input" placeholder="Enter your age">
+                        <input type="text" name="input" id="age" placeholder="Enter your age">
                     </div>
                     <div>
                         <label for="describe">Which best option describes you?</label>
-                        <select name="describe" id="input">
+                        <select name="input" id="describe">
                             <option value="default">Student</option>
                             <option value="teacher">Teacher</option>
                         </select>
@@ -51,20 +51,20 @@
                     <div>
                         <legend>Language and Frameworks known</legend>
                         <div>
-                            <input type="checkbox" id="" name="selected" />
-                            <label for="">C</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="" name="selected" />
-                            <label for="">C++</label>
-                        </div>
-                        <div>
                             <input type="checkbox" id="c" name="selected" />
-                            <label for="c">C#</label>
+                            <label for="c">C</label>
                         </div>
                         <div>
                             <input type="checkbox" id="cc" name="selected" />
-                            <label for="cc">Java</label>
+                            <label for="cc">C++</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ccc" name="selected" />
+                            <label for="ccc">C#</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="java" name="selected" />
+                            <label for="java">Java</label>
                         </div>
                         <div>
                             <input type="checkbox" id="python" name="selected" />
@@ -96,12 +96,13 @@
                         <input type="text" name="input" id="input">
                     </div>
                     <div>
-                        <input type="submit" value="Submit" id="submit"/>
+                        <input type="Submit" value="Submit" id="submit" onclick=""/>
                     </div>
                 </form>
             </div>
         </section>
     </main>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

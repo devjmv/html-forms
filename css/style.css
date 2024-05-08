@@ -19,7 +19,7 @@ div {
     margin-top: 10px;
 }
 
-#input {
+[name=input] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
