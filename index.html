@@ -9,97 +9,99 @@
 </head>
 
 <body>
-    <section id="section_1">
-        <h1>GeeksforGeeks Survey Form</h1>
-        <div>
-            <form action="forms" method="get">
-                <div>
-                    <label for="name">Name</label>
-                    <input type="text" name="input" id="input" placeholder="Enter your name">
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="text" name="input" id="input" placeholder="Enter your email">
-                </div>
-                <div>
-                    <label for="age">Age</label>
-                    <input type="text" name="input" id="input" placeholder="Enter your age">
-                </div>
-                <div>
-                    <label for="describe">Which best option describes you?</label>
-                    <select name="describe" id="input">
-                        <option value="default">Student</option>
-                        <option value="teacher">Teacher</option>
-                    </select>
-                </div>
-                <div>
-                    <legend>Would you recommend this site?</legend>
+    <main>
+        <section id="section_1">
+            <div>
+                <h1>GeeksforGeeks Survey Form</h1>
+                <form action="forms" method="get">
                     <div>
-                        <input type="radio" id="yes" name="check" value="yes" />
-                        <label for="yes">Yes</label>
+                        <label for="name">Name</label>
+                        <input type="text" name="input" id="input" placeholder="Enter your name">
                     </div>
                     <div>
-                        <input type="radio" id="not" name="check" value="not" />
-                        <label for="not">Not</label>
+                        <label for="email">Email</label>
+                        <input type="text" name="input" id="input" placeholder="Enter your email">
                     </div>
                     <div>
-                        <input type="radio" id="maybe" name="check" value="maybe" />
-                        <label for="maybe">Maybe</label>maybe
-                    </div>
-                </div>
-                <div>
-                    <legend>Language and Frameworks known</legend>
-                    <div>
-                        <input type="checkbox" id="" name="selected" />
-                        <label for="">C</label>
+                        <label for="age">Age</label>
+                        <input type="text" name="input" id="input" placeholder="Enter your age">
                     </div>
                     <div>
-                        <input type="checkbox" id="" name="selected" />
-                        <label for="">C++</label>
+                        <label for="describe">Which best option describes you?</label>
+                        <select name="describe" id="input">
+                            <option value="default">Student</option>
+                            <option value="teacher">Teacher</option>
+                        </select>
                     </div>
                     <div>
-                        <input type="checkbox" id="c" name="selected" />
-                        <label for="c">C#</label>
+                        <legend>Would you recommend this site?</legend>
+                        <div>
+                            <input type="radio" id="yes" name="check" value="yes" />
+                            <label for="yes">Yes</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="not" name="check" value="not" />
+                            <label for="not">Not</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="maybe" name="check" value="maybe" />
+                            <label for="maybe">Maybe</label>maybe
+                        </div>
                     </div>
                     <div>
-                        <input type="checkbox" id="cc" name="selected" />
-                        <label for="cc">Java</label>
+                        <legend>Language and Frameworks known</legend>
+                        <div>
+                            <input type="checkbox" id="" name="selected" />
+                            <label for="">C</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="" name="selected" />
+                            <label for="">C++</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="c" name="selected" />
+                            <label for="c">C#</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cc" name="selected" />
+                            <label for="cc">Java</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="python" name="selected" />
+                            <label for="python">Python</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="javascript" name="selected" />
+                            <label for="javascript">JavaScript</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="react" name="selected" />
+                            <label for="react">React</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="angular" name="selected" />
+                            <label for="angular">Angular</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="django" name="selected" />
+                            <label for="django">Django</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="spring" name="selected" />
+                            <label for="spring">Spring</label>
+                        </div>
                     </div>
                     <div>
-                        <input type="checkbox" id="python" name="selected" />
-                        <label for="python">Python</label>
+                        <label for="cement">Any cement or suggestion</label>
+                        <input type="text" name="input" id="input">
                     </div>
                     <div>
-                        <input type="checkbox" id="javascript" name="selected" />
-                        <label for="javascript">JavaScript</label>
+                        <input type="submit" value="Submit" id="submit"/>
                     </div>
-                    <div>
-                        <input type="checkbox" id="react" name="selected" />
-                        <label for="react">React</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="angular" name="selected" />
-                        <label for="angular">Angular</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="django" name="selected" />
-                        <label for="django">Django</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="spring" name="selected" />
-                        <label for="spring">Spring</label>
-                    </div>
-                </div>
-                <div>
-                    <label for="cement">Any cement or suggestion</label>
-                    <input type="text" name="input" id="input">
-                </div>
-                <div>
-                    <input type="submit" value="Submit" id="submit"/>
-                </div>
-            </form>
-        </div>
-    </section>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

@@ -2,11 +2,17 @@ body {
     background-color: green;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #section_1 {
     background-color: whitesmoke;
+    margin: 25px;
     padding: 15px;
     width: 400px;
-
 }
 
 div {
