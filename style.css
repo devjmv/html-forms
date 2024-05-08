@@ -1,0 +1,9 @@
+body {
+    background-color: green;
+}
+
+#section_1 {
+    background-color: whitesmoke;
+    padding: 15px;
+    width: 400px;
+}
