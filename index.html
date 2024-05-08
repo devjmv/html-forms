@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section name="section_1">
+        <h1>GeeksforGeeks Survey Form</h1>
+        <div>
+            <form action="forms" method="get">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="input" id="name" placeholder="Enter your name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" name="input" id="email" placeholder="Enter your email">
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="text" name="input" id="age" placeholder="Enter your age">
+                </div>
+                <div>
+                    <label for="describe">Which best option describes you?</label>
+                    <select name="describe" id="describe">
+                        <option value="default">Student</option>
+                        <option value="teacher">Teacher</option>
+                    </select>
+                </div>
+                <div>
+                    <legend>Would you recommend this site?</legend>
+                    <div>
+                        <input type="radio" id="yes" name="check" value="yes" />
+                        <label for="yes">Yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="not" name="check" value="not" />
+                        <label for="not">Not</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="maybe" name="check" value="maybe" />
+                        <label for="maybe">Maybe</label>maybe
+                    </div>
+                </div>
+                <div>
+                    <legend>Language and Frameworks known</legend>
+                    <div>
+                        <input type="checkbox" id="" name="selected" />
+                        <label for="">C</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="" name="selected" />
+                        <label for="">C++</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="c" name="selected" />
+                        <label for="c">C#</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cc" name="selected" />
+                        <label for="cc">Java</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="python" name="selected" />
+                        <label for="python">Python</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="javascript" name="selected" />
+                        <label for="javascript">JavaScript</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="react" name="selected" />
+                        <label for="react">React</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="angular" name="selected" />
+                        <label for="angular">Angular</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="django" name="selected" />
+                        <label for="django">Django</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="spring" name="selected" />
+                        <label for="spring">Spring</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="cement">Any cement or suggestion</label>
+                    <input type="text" name="input" id="cement">
+                </div>
+                <div>
+                    <input type="submit" value="Submit" />
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
